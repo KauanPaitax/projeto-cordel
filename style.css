@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 140px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+header .dhe{
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .dh{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p.assunt{
+    font-family: "Patrick Hand", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+div.dentroimg1{
+    
+}
+
+footer{
+    background-color: black;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
