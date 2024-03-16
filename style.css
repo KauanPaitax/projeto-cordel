@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 *{
-    margin: 0px;
+    margin: -5px;
     padding: 0px;
 }
 
@@ -35,19 +35,57 @@ a:hover{
 }
 
 p.assunt{
+    display: inline-block;
     font-family: "Patrick Hand", cursive, sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
+    line-height: 1.5em;
     font-style: italic;
+    width: 400px;
+    padding: 10vh 30px;
 }
 
-div.dentroimg1{
-    
+section.img1{
+    background: black url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: 650px;
+}
+
+section.img2{
+    background: black url('imagens/background002.jpg') left bottom no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    height: 600px;
+}
+
+.assuntimg1{
+    color: white;
+    font-family: "Patrick Hand", cursive, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-style: italic;
+    width: 310px;
+    padding: 5px;
+    margin: 152px 0px 0px 30px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.assuntimg2{
+    color: white;
+    font-family: "Patrick Hand", cursive, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-style: italic;
+    width: 320px;
+    padding: 5px;
+    margin: 127px 0px 0px 30px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
 }
 
 footer{
     background-color: black;
-    padding: 3px;
+    padding: 5px;
     color: white;
     text-align: center;
     font-size: 1.2em;
