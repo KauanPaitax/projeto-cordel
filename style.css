@@ -2,97 +2,98 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --font1: "Passion One", cursive, sans-serif;
+    --font2: "Patrick Hand", cursive, sans-serif;
+}
+
 *{
-    margin: -5px;
+    margin: 0px;
     padding: 0px;
 }
 
 header{
-    height: 140px;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 50px 0px 0px 0px;
 }
 
-header .dhe{
-    padding: 20px 0px;
+header>p{
+    padding-bottom: 50px;
+    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header .dh{
+header>p>a{
     color: white;
+    font-size: 2vw;
     text-decoration: none;
     font-weight: bold;
 }
 
-main{
-    padding: 20px;
+header>h1{
+    padding-top: 50px;
+    font-family: var(--font1);
+    font-size: 8vw;
 }
 
 a:hover{
     text-decoration: underline;
 }
 
-p.assunt{
-    display: inline-block;
-    font-family: "Patrick Hand", cursive, sans-serif;
-    font-size: 2em;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 3vh;
+    font-size: 4.9vw;
+    font-family: var(--font2);
     line-height: 1.5em;
     font-style: italic;
-    width: 400px;
-    padding: 10vh 30px;
 }
 
 section.img1{
-    background: black url('imagens/background001.jpg') right center no-repeat fixed;
+    background: rgba(0, 0, 0, 0.363) url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
-    height: 650px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.5);
 }
 
 section.img2{
-    background: black url('imagens/background002.jpg') left bottom no-repeat fixed;
+    background: rgba(0, 0, 0, 0.5) url('imagens/background002.jpg') left bottom no-repeat fixed;
     background-size: cover;
-    margin: 0px;
-    height: 600px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.336);
 }
 
 .assuntimg1{
     color: white;
-    font-family: "Patrick Hand", cursive, sans-serif;
-    font-size: 2em;
-    line-height: 1.5em;
-    font-style: italic;
-    width: 310px;
+    width:48vw;
+    height: 52vw;
     padding: 5px;
-    margin: 152px 0px 0px 30px;
-    display: inline-block;
     background-color: rgba(0, 0, 0, 0.473);
+    text-shadow: 1px 1px 0px black;
 }
 
 .assuntimg2{
     color: white;
-    font-family: "Patrick Hand", cursive, sans-serif;
-    font-size: 2em;
-    line-height: 1.5em;
-    font-style: italic;
-    width: 320px;
+    width: 50vw;
+    height: 52vw;
     padding: 5px;
-    margin: 127px 0px 0px 30px;
-    display: inline-block;
     background-color: rgba(0, 0, 0, 0.473);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
     background-color: black;
-    padding: 5px;
+    padding: 0.5vh;
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 footer a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1em;
 }
