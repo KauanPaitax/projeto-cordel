@@ -35,6 +35,7 @@ header>p>a{
 
 header>h1{
     padding-top: 50px;
+    font-variant: small-caps;
     font-family: var(--font1);
     font-size: 8vw;
 }
